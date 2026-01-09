@@ -1,6 +1,8 @@
 #ignorer PDF
 *.pdf
 
+*.DS_Store
+
 #ignorer DEM
 *.asc
 
