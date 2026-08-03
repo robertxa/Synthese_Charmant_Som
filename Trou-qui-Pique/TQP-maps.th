@@ -1,11 +1,22 @@
 encoding  utf-8
 
-map MP-TQP-plan-tot -title "TQP"
-  SP-TQP-1
+map MP-TQP-plan-tot -title "Trou qui pique"
+  MP-Explo-260726-plan-tot@Explo-260726 
+  MP-TQP
 
 endmap
 
-map MC-TQP-coupe-tot -title "TQP"
+map MC-TQP-coupe-tot -title "Trou qui pique" -projection extended
+  
+  MC-Explo-260726-coupe-tot@Explo-260726
+  MC-TQP
+endmap
+
+map MP-TQP 
+  SP-TQP-1
+endmap
+
+map MC-TQP 
   SC-TQP-1
   break
   SC-TQP-2

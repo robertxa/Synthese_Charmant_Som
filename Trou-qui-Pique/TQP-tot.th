@@ -2,7 +2,9 @@ encoding  utf-8
 
 survey TQP -title "Trou qui pique"
    input Data/Trou_qui_Pique.th
-	
+   input Explo-260726/Explo-260726-tot.th
+
+   equate 46@tqp-260726.Explo-260726 P-36@Trou_qui_Pique
  
 ##########################################################################################
 ## Pour importer les différents fichiers de dessins en plan
@@ -13,4 +15,6 @@ survey TQP -title "Trou qui pique"
 	input TQP-maps.th
 	input Data/TQP-coupe.th2
 	
+	join SP-TQP-1 SP-2707-1@Explo-260726
+	# join SC-TQP-1 SC-2707-1@Explo-260726
 endsurvey

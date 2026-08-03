@@ -6,16 +6,16 @@ survey Trou_qui_Pique -title "Trou qui Pique" -entrance "P-0"
     date 2023.06.12 
     cs UTM32
     fix P-0 246036.407 5024078.985 1717
-    team "Benoît/Urruty "
-    team "Thibaud/Galai  "
-    team "Mathilde "
-    explo-team "Benoît/Urruty "
-    explo-team "Thibaud/Galai  "
-    explo-team "Loïc/Maurice  "
-    explo-team "Fabien/Mullet "
+    team "Benoît/Urruty"
+    team "Thibaud/Galai"
+    team "Mathilde"
+    explo-team "Benoît/Urruty"
+    explo-team "Thibaud/Galai"
+    explo-team "Loïc/Maurice"
+    explo-team "Fabien/Mullet"
     explo-team "Martin/Gerbaux"
-    explo-team "Fabien/Simon "
-    explo-team "Mathilde "
+    explo-team "Fabien/Simon"
+    explo-team "Mathilde"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

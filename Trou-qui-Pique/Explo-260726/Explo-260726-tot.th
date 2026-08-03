@@ -1,0 +1,13 @@
+encoding  utf-8
+
+survey Explo-260726 -title "Explo-260726"
+   input Data/Explo-260726.th
+   input Data/tqp-260726.th
+
+   input Data/Explo-260726-plan.th2
+	input Explo-260726-maps.th
+	input Data/Explo-260726-coupe.th2
+	#input Explo-260726-SC.th
+	
+	equate 23@tqp-260726 23@explo
+endsurvey

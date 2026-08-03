@@ -1,0 +1,26 @@
+encoding  utf-8
+
+map MP-1
+  SP-2707-1
+endmap
+
+map MP-2
+  SP-2707-2
+  SP-2707-3
+  SP-2707-4
+endmap
+
+map MP-Explo-260726-plan-tot -title "Explo-260726"
+  MP-1 
+  MP-2 [0 -25 m] below
+endmap
+
+map MC-Explo-260726-coupe-tot -title "Explo-260726" -projection extended
+  MC-1
+  explo
+  tqp-260726
+endmap
+
+map MC-1
+  SC-2707-1
+endmap

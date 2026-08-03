@@ -693,7 +693,7 @@ layout drawingconfig
 				pickup pencircle scaled (0.16cm * defaultscale);
 				p:=(0.4cm,0.6cm);
 				thdraw ((p--(p yscaled -1)--(p xscaled -1)--(p scaled -1)) shifted (0,-1.0cm));
-				label.rt(thTEX("mg") scaled 1.6, (.6cm,-1.6cm)) transformed T;
+				label.rt(thTEX("mg") scaled 1, (.6cm,-1.6cm)) transformed T;
 			endgroup;
 		enddef;
 
@@ -2443,7 +2443,7 @@ layout LayoutAtlasNorthArrow
 		def s_northarrow (expr rot) =
 			begingroup
 				#interim defaultscale:=0.7; % scale your north arrow here
-				interim defaultscale:=0.5; % scale your north arrow here; 0.5 is the best value for atlas
+				interim defaultscale:=0.3; % scale your north arrow here; 0.5 is the best value for atlas
 				T:=identity scaled defaultscale rotated -rot;
 				interim linecap:=squared;
 				interim linejoin:=rounded;

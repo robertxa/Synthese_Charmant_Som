@@ -317,7 +317,7 @@ endlayout
 #select MP-Charmant-Som-tot@Charmant-Som
 #select MC-Charmant-Som-tot@Charmant-Som
 	 
-export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Charmant-Som-coupe_projected.pdf 
+# export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Charmant-Som-coupe_projected.pdf 
 #export map -projection extended -layout my_layout-coupe -o Outputs/Charmant-Som-coupe.pdf 
 #export map -o Outputs/Charmant-Som-plan.pdf -layout my_layout
 #export map -proj plan -fmt pdf -o Outputs/Charmant-Som-plan-continuations.pdf -layout my_layout-continuations
@@ -328,6 +328,7 @@ export model -o Outputs/Charmant-Som.lox
 # Export des fichiers ESRI
 export map -proj plan -fmt esri -o GIS/Charmant-Som -layout my_layout
 export model -fmt esri -o GIS/Charmant-Som-model -enable all
+export map -proj [elevation 17] -fmt esri -o GIS/Charmant-Som_projected -layout my_layout
 
 
 #survex
